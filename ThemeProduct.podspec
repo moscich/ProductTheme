@@ -13,5 +13,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes'
 
   s.dependency 'Typhoon'
+  s.dependency 'ProductCore'
 end
 

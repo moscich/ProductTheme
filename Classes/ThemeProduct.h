@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ThemeProtocol.h"
 
-@interface ThemeProduct : NSObject
+@interface ThemeProduct : NSObject <ThemeProtocol>
 
 @end
