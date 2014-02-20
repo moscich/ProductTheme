@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "ThemeProtocol.h"
+#import "TyphoonAssembly.h"
 
-@interface ThemeProduct : NSObject <ThemeProtocol>
+@interface ThemeProduct : TyphoonAssembly
 
 @end
