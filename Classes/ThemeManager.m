@@ -25,5 +25,14 @@
     }
 }
 
+- (void)colorBackground:(UIView *)view
+{
+    [view setBackgroundColor:[UIColor lightGrayColor]];
+}
+
+- (void)fillLogoImage:(UIImageView *)imageView
+{
+    imageView.image = [UIImage imageNamed:@"minion-logo@2x.jpg"];
+}
 
 @end

@@ -8,12 +8,13 @@
 
 #import "ThemeProduct.h"
 #import "TyphoonDefinition.h"
+#import "ThemeManager.h"
 
 @implementation ThemeProduct
 
 - (TyphoonDefinition *)registerThemeManager
 {
-    return [TyphoonDefinition withClass:[ThemeProduct class] properties:^(TyphoonDefinition *definition)
+    return [TyphoonDefinition withClass:[ThemeManager class] properties:^(TyphoonDefinition *definition)
     {
         definition.scope = TyphoonScopeSingleton;
     }];
